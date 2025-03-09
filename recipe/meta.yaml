@@ -1,5 +1,5 @@
 {% set name = "trame-leaflet" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: ac6fc0e6bff2efcc67dffbb7ee8956b580162e28f5a4132a703bd221e2fd8c51
+  sha256: 2b737f670e9d57dbec8609ea9c2007c0ffa2361338ec8e355706e4bbb94ba30a
 
 build:
   noarch: python
